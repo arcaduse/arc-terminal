@@ -38,6 +38,6 @@ export const bookmarks = {
 	Socials: {
 		twitter: 'https://twitter.com/Fed0x',
 		src: 'https://github.com/arcaduse',
-		updates: 'https://t.me/+Y49Ue8JX9HZhyTQ0',
+		telegram: 'https://t.me/+Y49Ue8JX9HZhyTQ0',
 	},
 }
