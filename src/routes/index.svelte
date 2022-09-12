@@ -51,9 +51,19 @@
 <svelte:head>
 	<title>Terminal</title>
 </svelte:head>
-
+<div class="container">
+	<div class="text">
+	  <span style="--i:1">A</span>
+	  <span style="--i:2">R</span>
+	  <span style="--i:3">C</span>
+	  <span style="--i:4">A</span>
+	  <span style="--i:5">D</span>
+	  <span style="--i:6">I</span>
+	  <span style="--i:7">A</span>
+	</div>
+  </div>
 <div class="terminal" on:click={() => termInput.focus()}>
-	<!-- <Weather /> -->
+	
 	<pre class="output">Type 'help' to learn more.</pre>
 	{#each lineData as line, i (i)}
 		<span>
